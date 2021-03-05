@@ -212,6 +212,14 @@ list.ocamllex = {
   maintainers = {'@undu'},
 }
 
+list.dune = {
+  install_info = {
+    url = "https://github.com/atom-ocaml/tree-sitter-dune",
+    files = { "src/parser.c" },
+  },
+  maintainers = {'@undu'},
+}
+
 list.swift = {
   install_info = {
     url = "https://github.com/tree-sitter/tree-sitter-swift",
